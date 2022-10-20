@@ -1,0 +1,173 @@
+_onMessage {
+    "command": "setBreakpoints",
+    "arguments": {
+        "source": {
+            "name": "program5.js",
+            "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js"
+        },
+        "lines": [],
+        "breakpoints": [],
+        "sourceModified": false
+    },
+    "type": "request",
+    "seq": 21
+}
+send message {
+    "seq": 34,
+    "type": "response",
+    "request_seq": 21,
+    "command": "setBreakpoints",
+    "success": true,
+    "body": {
+        "breakpoints": []
+    }
+}
+_onMessage {
+    "command": "setBreakpoints",
+    "arguments": {
+        "source": {
+            "name": "program5.js",
+            "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+            "sourceReference": 0
+        },
+        "lines": [],
+        "breakpoints": [],
+        "sourceModified": false
+    },
+    "type": "request",
+    "seq": 44
+}
+send message {
+    "seq": 183,
+    "type": "event",
+    "event": "breakpoint",
+    "body": {
+        "reason": "changed",
+        "breakpoint": {
+            "id": 13,
+            "verified": false,
+            "message": "Unbound breakpoint"
+        }
+    }
+}
+send message {
+    "seq": 184,
+    "type": "response",
+    "request_seq": 44,
+    "command": "setBreakpoints",
+    "success": true,
+    "body": {
+        "breakpoints": []
+    }
+}
+_onMessage {
+    "command": "setBreakpoints",
+    "arguments": {
+        "source": {
+            "name": "program5.js",
+            "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js"
+        },
+        "lines": [
+            14
+        ],
+        "breakpoints": [
+            {
+                "line": 14
+            }
+        ],
+        "sourceModified": false
+    },
+    "type": "request",
+    "seq": 22
+}
+send message {
+    "seq": 35,
+    "type": "response",
+    "request_seq": 22,
+    "command": "setBreakpoints",
+    "success": true,
+    "body": {
+        "breakpoints": [
+            {
+                "id": 15,
+                "verified": false,
+                "message": "Unbound breakpoint"
+            }
+        ]
+    }
+}
+_onMessage {
+    "command": "setBreakpoints",
+    "arguments": {
+        "source": {
+            "name": "program5.js",
+            "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+            "sourceReference": 0
+        },
+        "lines": [
+            14
+        ],
+        "breakpoints": [
+            {
+                "line": 14
+            }
+        ],
+        "sourceModified": false
+    },
+    "type": "request",
+    "seq": 45
+}
+send message {
+    "seq": 185,
+    "type": "response",
+    "request_seq": 45,
+    "command": "setBreakpoints",
+    "success": true,
+    "body": {
+        "breakpoints": [
+            {
+                "id": 14,
+                "verified": true,
+                "source": {
+                    "name": "program5.js",
+                    "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+                    "sourceReference": 0
+                },
+                "line": 14,
+                "column": 5
+            }
+        ]
+    }
+}
+_onMessage {
+    "command": "breakpointLocations",
+    "arguments": {
+        "source": {
+            "name": "program5.js",
+            "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+            "sourceReference": 0
+        },
+        "line": 14
+    },
+    "type": "request",
+    "seq": 46
+}
+send message {
+    "seq": 186,
+    "type": "response",
+    "request_seq": 46,
+    "command": "breakpointLocations",
+    "success": true,
+    "body": {
+        "breakpoints": [
+            {
+                "line": 14,
+                "column": 5
+            },
+            {
+                "line": 14,
+                "column": 13
+            }
+        ]
+    }
+}

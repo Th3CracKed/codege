@@ -1,0 +1,562 @@
+_onMessage {
+    "command": "stepIn",
+    "arguments": {
+        "threadId": 3
+    },
+    "type": "request",
+    "seq": 23
+}
+send message {
+    "seq": 153,
+    "type": "response",
+    "request_seq": 23,
+    "command": "stepIn",
+    "success": true,
+    "body": {}
+}
+send message {
+    "seq": 154,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 155,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 156,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 157,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 158,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 159,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 160,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 161,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 162,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+_onMessage {
+    "command": "breakpointLocations",
+    "arguments": {
+        "source": {
+            "name": "program5.js",
+            "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+            "sourceReference": 0
+        },
+        "line": 15
+    },
+    "type": "request",
+    "seq": 24
+}
+send message {
+    "seq": 163,
+    "type": "response",
+    "request_seq": 24,
+    "command": "breakpointLocations",
+    "success": true,
+    "body": {
+        "breakpoints": [
+            {
+                "line": 15,
+                "column": 5
+            },
+            {
+                "line": 15,
+                "column": 11
+            }
+        ]
+    }
+}
+send message {
+    "seq": 164,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 165,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 166,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 167,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 168,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 169,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 170,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 171,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 172,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 173,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 174,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 175,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 176,
+    "type": "event",
+    "event": "continued",
+    "body": {
+        "threadId": 3,
+        "allThreadsContinued": false
+    }
+}
+send message {
+    "seq": 177,
+    "type": "event",
+    "event": "stopped",
+    "body": {
+        "reason": "step",
+        "description": "Paused",
+        "threadId": 3,
+        "allThreadsStopped": false
+    }
+}
+_onMessage {
+    "command": "threads",
+    "type": "request",
+    "seq": 25
+}
+send message {
+    "seq": 178,
+    "type": "response",
+    "request_seq": 25,
+    "command": "threads",
+    "success": true,
+    "body": {
+        "threads": [
+            {
+                "id": 3,
+                "name": "Remote Process [0]"
+            }
+        ]
+    }
+}
+_onMessage {
+    "command": "stackTrace",
+    "arguments": {
+        "threadId": 3,
+        "startFrame": 0,
+        "levels": 1
+    },
+    "type": "request",
+    "seq": 26
+}
+send message {
+    "seq": 179,
+    "type": "response",
+    "request_seq": 26,
+    "command": "stackTrace",
+    "success": true,
+    "body": {
+        "stackFrames": [
+            {
+                "id": 459,
+                "name": "keypress",
+                "line": 4,
+                "column": 5,
+                "source": {
+                    "name": "program5.js",
+                    "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+                    "sourceReference": 0
+                },
+                "presentationHint": "normal",
+                "canRestart": true
+            }
+        ],
+        "totalFrames": 9
+    }
+}
+_onMessage {
+    "command": "breakpointLocations",
+    "arguments": {
+        "source": {
+            "name": "program5.js",
+            "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+            "sourceReference": 0
+        },
+        "line": 15
+    },
+    "type": "request",
+    "seq": 27
+}
+send message {
+    "seq": 180,
+    "type": "response",
+    "request_seq": 27,
+    "command": "breakpointLocations",
+    "success": true,
+    "body": {
+        "breakpoints": [
+            {
+                "line": 15,
+                "column": 5
+            },
+            {
+                "line": 15,
+                "column": 11
+            }
+        ]
+    }
+}
+_onMessage {
+    "command": "scopes",
+    "arguments": {
+        "frameId": 459
+    },
+    "type": "request",
+    "seq": 28
+}
+send message {
+    "seq": 181,
+    "type": "response",
+    "request_seq": 28,
+    "command": "scopes",
+    "success": true,
+    "body": {
+        "scopes": [
+            {
+                "name": "Local: keypress",
+                "presentationHint": "locals",
+                "expensive": false,
+                "variablesReference": 90,
+                "line": 3,
+                "column": 18,
+                "source": {
+                    "name": "program5.js",
+                    "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+                    "sourceReference": 0
+                },
+                "endLine": 11,
+                "endColumn": 2
+            },
+            {
+                "name": "Closure",
+                "presentationHint": "arguments",
+                "expensive": false,
+                "variablesReference": 91,
+                "line": 1,
+                "column": 1,
+                "source": {
+                    "name": "program5.js",
+                    "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+                    "sourceReference": 0
+                },
+                "endLine": 47,
+                "endColumn": 3
+            },
+            {
+                "name": "Global",
+                "expensive": true,
+                "variablesReference": 92
+            }
+        ]
+    }
+}
+_onMessage {
+    "command": "stackTrace",
+    "arguments": {
+        "threadId": 3,
+        "startFrame": 1,
+        "levels": 19
+    },
+    "type": "request",
+    "seq": 29
+}
+_onMessage {
+    "command": "variables",
+    "arguments": {
+        "variablesReference": 90
+    },
+    "type": "request",
+    "seq": 30
+}
+send message {
+    "seq": 182,
+    "type": "response",
+    "request_seq": 29,
+    "command": "stackTrace",
+    "success": true,
+    "body": {
+        "stackFrames": [
+            {
+                "id": 460,
+                "name": "<anonymous>",
+                "line": 15,
+                "column": 11,
+                "source": {
+                    "name": "program5.js",
+                    "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+                    "sourceReference": 0
+                },
+                "presentationHint": "normal",
+                "canRestart": true
+            },
+            {
+                "id": 461,
+                "name": "<anonymous>",
+                "line": 24,
+                "column": 2,
+                "source": {
+                    "name": "program5.js",
+                    "path": "c:\\Users\\Abdel\\Desktop\\auto_breakpoint\\program5.js",
+                    "sourceReference": 0
+                },
+                "presentationHint": "normal",
+                "canRestart": true
+            },
+            {
+                "id": 462,
+                "name": "Module._compile",
+                "line": 1102,
+                "column": 14,
+                "source": {
+                    "name": "internal/modules/cjs/loader",
+                    "path": "internal/modules/cjs/loader",
+                    "sourceReference": 720072378,
+                    "presentationHint": "deemphasize",
+                    "origin": "Skipped by skipFiles"
+                },
+                "presentationHint": "deemphasize",
+                "canRestart": true
+            },
+            {
+                "id": 463,
+                "name": "Module._extensions..js",
+                "line": 1159,
+                "column": 10,
+                "source": {
+                    "name": "internal/modules/cjs/loader",
+                    "path": "internal/modules/cjs/loader",
+                    "sourceReference": 720072378,
+                    "presentationHint": "deemphasize",
+                    "origin": "Skipped by skipFiles"
+                },
+                "presentationHint": "deemphasize",
+                "canRestart": true
+            },
+            {
+                "id": 464,
+                "name": "Module.load",
+                "line": 981,
+                "column": 32,
+                "source": {
+                    "name": "internal/modules/cjs/loader",
+                    "path": "internal/modules/cjs/loader",
+                    "sourceReference": 720072378,
+                    "presentationHint": "deemphasize",
+                    "origin": "Skipped by skipFiles"
+                },
+                "presentationHint": "deemphasize",
+                "canRestart": true
+            },
+            {
+                "id": 465,
+                "name": "Module._load",
+                "line": 822,
+                "column": 12,
+                "source": {
+                    "name": "internal/modules/cjs/loader",
+                    "path": "internal/modules/cjs/loader",
+                    "sourceReference": 720072378,
+                    "presentationHint": "deemphasize",
+                    "origin": "Skipped by skipFiles"
+                },
+                "presentationHint": "deemphasize",
+                "canRestart": true
+            },
+            {
+                "id": 466,
+                "name": "executeUserEntryPoint",
+                "line": 77,
+                "column": 12,
+                "source": {
+                    "name": "internal/modules/run_main",
+                    "path": "internal/modules/run_main",
+                    "sourceReference": 426318630,
+                    "presentationHint": "deemphasize",
+                    "origin": "Skipped by skipFiles"
+                },
+                "presentationHint": "deemphasize",
+                "canRestart": true
+            },
+            {
+                "id": 467,
+                "name": "<anonymous>",
+                "line": 17,
+                "column": 47,
+                "source": {
+                    "name": "internal/main/run_main_module",
+                    "path": "internal/main/run_main_module",
+                    "sourceReference": 700523592,
+                    "presentationHint": "deemphasize",
+                    "origin": "Skipped by skipFiles"
+                },
+                "presentationHint": "deemphasize",
+                "canRestart": true
+            }
+        ],
+        "totalFrames": 9
+    }
+}
+send message {
+    "seq": 183,
+    "type": "response",
+    "request_seq": 30,
+    "command": "variables",
+    "success": true,
+    "body": {
+        "variables": [
+            {
+                "name": "this",
+                "value": "global",
+                "evaluateName": "this",
+                "type": "global",
+                "variablesReference": 93
+            }
+        ]
+    }
+}
